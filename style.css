@@ -3,7 +3,7 @@
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 #carousel-next, #carousel-prev{
-    color:#6699FF;
+    color:#008080;
 }
 
 .youtube {
@@ -551,7 +551,8 @@ a[data-lightbox]:hover img{
 /* Background colour styles */
 
 .bgc-carmine-pink{
-	background-color:#6699FF;
+	/*background-color:#6699FF;*/
+    background-color:#008080;
 }
 .bgc-outer-space{
 	background-color:#47454B;
@@ -580,8 +581,8 @@ a[data-lightbox]:hover img{
 /* Icon colour styles */
 
 .icon-carmine-pink{
-	color:#6699FF!important;
-	border-color:#6698FF!important;
+	color:#008080!important;
+	border-color:#008080!important;
 }
 .icon-outer-space{
 	color:#47454B!important;

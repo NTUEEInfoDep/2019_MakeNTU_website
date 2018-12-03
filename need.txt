@@ -1,0 +1,10 @@
+img/
+    background
+    prize/
+        Laziest Tech
+        Best Maker
+        Best Creativity
+        Best AI
+        sponsor prize X3
+        most popular X1
+

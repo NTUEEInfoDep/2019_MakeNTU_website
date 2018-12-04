@@ -7,4 +7,8 @@ img/
         Best AI
         sponsor prize X3
         most popular X1
-
+    wanted/
+        computer vision
+        voice assistant
+        robot
+        IoT

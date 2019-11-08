@@ -10,6 +10,21 @@ import {
   NavLink
 } from 'reactstrap';
 
+const styles = {
+  navBarStyle: {
+    backgroundColor: '#008080f0',
+    boxShadow: "0px 10px 0px 0px rgba(59, 179, 149, 0.8)",
+    zIndex: 1000,
+    fontSize: "1.5rem",
+    marginBottom: "10px"
+  },
+  navBarBrandStyle: {
+    color: '#ffffff',
+    fontFamily: "Geo",
+    fontSize: "2rem"
+  }
+}
+
 class MainNavbar extends Component {
   constructor(props) {
     super(props);
@@ -25,13 +40,15 @@ class MainNavbar extends Component {
 
   render() {
     return (
-      <Navbar dark expand="md" style={{backgroundColor: '#008080f0'}}>
+      <Navbar dark expand="md" style={styles.navBarStyle}>
         <Link to='/'>
-          <NavbarBrand style={{color: '#ffffff'}}>MakeNTU</NavbarBrand>
+          <NavbarBrand style={styles.navBarBrandStyle}>
+            2020 MakeNTU
+          </NavbarBrand>
         </Link>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
-          <Nav className="ml-auto" navbar>
+          <Nav className="ml-auto" navbar style={{fontFamily: "Geo"}}>
             <NavItem>
               <NavLink href="/#about">About</NavLink>
             </NavItem>

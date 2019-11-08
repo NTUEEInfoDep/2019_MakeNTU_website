@@ -28,7 +28,7 @@ body{
     overflow-x:hidden;
     /* -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-	font-size: 18px; */
+    font-size: 18px; */
 }
 a:hover{text-decoration: none; cursor:pointer;}
 
@@ -721,4 +721,34 @@ a[data-lightbox]:hover img{
     .video-bg-contianer{
         display:none;
 	}
+}
+
+.sponsor-logos div
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.partner-logos img
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sponsor-logos img
+{
+    vertical-align: middle;
+}
+
+.helper
+{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-text
+{
+    font-family: "Geo";
+    font-weight: bold;
 }

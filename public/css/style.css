@@ -809,6 +809,13 @@ a[data-lightbox]:hover img{
     font-weight: bold;
 }
 
+.theme-focus-light
+{
+    color: rgb(156, 210, 214);
+    font-weight: bold;
+}
+
+
 .eng-textbox
 {
     width: 50%;
@@ -819,4 +826,17 @@ a[data-lightbox]:hover img{
     font-family: "Geo";
     color: rgb(150, 150, 150);
     margin-bottom: 5%;
+}
+
+.logo-img
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:600px) {
+    .logo-img {
+      width: 80%;
+      /* Below 480px the width will be 100% and the images will come in stakced view. */
+    }
 }

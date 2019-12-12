@@ -43,7 +43,7 @@ class MainNavbar extends Component {
       <Navbar dark expand="md" style={styles.navBarStyle}>
         <Link to='/'>
           <NavbarBrand style={styles.navBarBrandStyle}>
-            2020 MakeNTU
+            2020 MakeNTU : InnOvaTion
           </NavbarBrand>
         </Link>
         <NavbarToggler onClick={this.toggle} />
@@ -52,23 +52,28 @@ class MainNavbar extends Component {
             <NavItem>
               <NavLink href="/#about">About</NavLink>
             </NavItem>
+            {/*
             <NavItem>
               <NavLink href="/#schedule">Schedule</NavLink>
             </NavItem>
+            
             <NavItem>
               <NavLink href="/#faq">FAQ</NavLink>
             </NavItem>
+            */}
             <NavItem>
               <NavLink href="/#sponsors">Sponsors</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/#contact">Contact</NavLink>
             </NavItem>
+            {/*
             <NavItem>
               <Link to='/login'>
                 <NavLink>Participant Page</NavLink>
               </Link>
             </NavItem>
+            */}
           </Nav>
         </Collapse>
       </Navbar>

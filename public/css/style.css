@@ -472,6 +472,7 @@ a[data-lightbox]:hover img{
 .bg-desktop-overlay{
     background-image:url("../img/maker-desk-overlay.png");
 }
+
 .bg-hackntu-overlay{
     background-image:url("../img/hackntu-overlay.png");
 }
@@ -747,8 +748,75 @@ a[data-lightbox]:hover img{
     vertical-align: middle;
 }
 
+.geo-font
+{
+    font-family: 'Geo';
+}
+
+.geo-font a
+{
+    font-family: 'Geo';
+    font-size: 1.5rem;
+}
+
+.geo-font h1
+{
+    font-size: 5rem;
+}
 .title-text
 {
     font-family: "Geo";
     font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.footer
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.5rem;
+    font-family: "Acme";
+    border-top: 1px solid rgb(191, 191, 191);
+}
+
+.textbox
+{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+.banner-title
+{
+    font-family: "Geo";
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.theme-title
+{
+    font-family: "Geo"; 
+    font-size: 5rem;
+    color: rgb(148, 179, 181);
+}
+
+.theme-focus
+{
+    color: rgb(71, 143, 148);
+    font-weight: bold;
+}
+
+.eng-textbox
+{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-family: "Geo";
+    color: rgb(150, 150, 150);
+    margin-bottom: 5%;
 }

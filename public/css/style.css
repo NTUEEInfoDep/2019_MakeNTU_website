@@ -834,6 +834,10 @@ a[data-lightbox]:hover img{
     margin: 0 auto;
 }
 
+.year-text
+{
+    font-size: 2rem;
+}
 @media only screen and (max-width:600px) {
     .logo-img {
       width: 80%;
